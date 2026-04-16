@@ -1,0 +1,22 @@
+{
+    "name": "asi/php-hooks",
+    "type": "library",
+    "autoload": {
+        "psr-4": {
+            "Asi\\PhpHooks\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "asi developer"
+        }
+    ],
+    "require-dev": {
+        "pestphp/pest": "^4.6"
+    },
+    "config": {
+        "allow-plugins": {
+            "pestphp/pest-plugin": true
+        }
+    }
+}
