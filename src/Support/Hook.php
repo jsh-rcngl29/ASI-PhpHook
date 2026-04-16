@@ -1,6 +1,6 @@
 <?php 
 
-namespace Asi\PhpHooks\Support;
+namespace AsiRC\PhpHooks\Support;
 
 class Hook
 {

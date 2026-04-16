@@ -1,6 +1,6 @@
 <?php
 
-use \Asi\PhpHooks\HookManager;
+use \AsiRC\PhpHooks\HookManager;
 
 
 

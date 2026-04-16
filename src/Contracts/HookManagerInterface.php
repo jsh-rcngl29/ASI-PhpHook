@@ -1,6 +1,6 @@
 <?php
 
-namespace Asi\PhpHooks\Contracts;
+namespace AsiRC\PhpHooks\Contracts;
 
 interface HookManagerInterface{
     public function addAction(string $hook, callable $callback, int $priority = 10): void;

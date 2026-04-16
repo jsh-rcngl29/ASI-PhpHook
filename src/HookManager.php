@@ -1,9 +1,9 @@
 <?php
 
-namespace Asi\PhpHooks;
+namespace AsiRC\PhpHooks;
 
-use Asi\PhpHooks\Contracts\HookManagerInterface;
-use Asi\PhpHooks\Support\Hook;
+use AsiRC\PhpHooks\Contracts\HookManagerInterface;
+use AsiRC\PhpHooks\Support\Hook;
 
 class HookManager implements HookManagerInterface
 {

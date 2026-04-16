@@ -1,10 +1,10 @@
 {
-    "name": "asi/php-hooks",
+    "name": "asi-rc/php-hooks",
     "description": "Simple hook system for PHP",
     "type": "library",
     "autoload": {
         "psr-4": {
-            "Asi\\PhpHooks\\": "src/"
+            "AsiRC\\PhpHooks\\": "src/"
         }
     },
     "authors": [
