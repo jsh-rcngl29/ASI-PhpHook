@@ -1,5 +1,6 @@
 {
     "name": "asi/php-hooks",
+    "description": "Simple hook system for PHP",
     "type": "library",
     "autoload": {
         "psr-4": {
@@ -11,6 +12,9 @@
             "name": "asi developer"
         }
     ],
+    "require": {
+        "php": ">=7.4"
+    },
     "require-dev": {
         "pestphp/pest": "^4.6"
     },

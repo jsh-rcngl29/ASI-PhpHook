@@ -4,11 +4,18 @@ namespace Asi\PhpHooks\Support;
 
 class Hook
 {
+    public string $name;
+    public $callback ;
+    public int $priority;
    
     public function __construct(
-        public string $name,
-        public $callback ,
-        public int $priority
-    ){}
+        $name,
+        $callback,
+        $priority
+    ){
+        $this->name = $name;
+        $this->callback = $callback;
+        $this->priority = $priority;
+    }
 
 }
